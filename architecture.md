@@ -4,7 +4,7 @@ Erigon is different from many other implementations of Ethereum (or other blockc
 
 ![Erigon components for Ethereum blockchain](drawio-pics/architecture-ETH.drawio.png)
 
-Components are shown as rectangles. In the current version of Erigon code, all components shown as rectangles are “separable”, meaning that they can be run as separate processes. Where two overlapping rectangles are shown, it means that more than one component of this type can be run at the same time, and on multiple computers. All components are separable, and all of them can currently run within the same process. However, downloader/seeder components need need to be run on the same computer even if they are separated, to be able to share downloaded and seeded files with Erigon.
+Components are shown as rectangles. In the current version of Erigon code, all components shown as rectangles are “separable”, meaning that they can be run as separate processes. Where two overlapping rectangles are shown, it means that more than one component of this type can be run at the same time, and on multiple computers. All components are separable, and all of them can currently run within the same process (embeddable). However, downloader/seeder components need need to be run on the same computer even if they are separated, to be able to share downloaded and seeded files with Erigon.
 
 The “lollipop” notation is explained below:
 
