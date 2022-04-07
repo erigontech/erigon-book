@@ -23,3 +23,13 @@ Erigon2 aims at recording state history at transaction granularity. All related 
 This means that indices will narrow down the search to specific transaction, and the peformance of this search would be independent
 of how many transactions there are in a typical block.
 
+# Data model
+
+Data model for Erigon2 can be viewed from three main perspectives.
+
+## Data model perspective 1: Static vs Dynamic
+
+## Data model perspective 2: State vs History vs History Index
+
+## Data model perspective 3: Accounts vs Storate vs Code
+
