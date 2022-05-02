@@ -31,5 +31,5 @@ Data model for Erigon2 can be viewed from three main perspectives.
 
 ## Data model perspective 2: State vs History vs History Index
 
-## Data model perspective 3: Accounts vs Storate vs Code
+## Data model perspective 3: Accounts vs Storage vs Code
 
